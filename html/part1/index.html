@@ -7,7 +7,29 @@
     <title>Hello Coursera</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
-    <script src="main.js"></script>
+    <style>
+        div p {
+            box-sizing: border-box;
+            height: 100px;
+            width: 200px;
+            margin-left: 10px;
+            float: left;
+            background-color: rgb(185, 131, 150);
+            text-align: center;
+            font-size: 2em;
+            overflow: hidden;
+        }
+        a {
+            
+            text-decoration: none;
+            font-family: 'Courier New', Courier, monospace;
+            overflow: hidden;
+        }
+
+        p:hover {
+            background-color: palegoldenrod;
+        }
+    </style>
 </head>
 
 <body>
@@ -15,7 +37,62 @@
     <span>
         <p>i am a paragragh</p>
     </span>
-    <ul>
+
+    <div class="row">
+        <a href="443.html">
+            <div class="col-lg-3 col-md-6">
+                <p>
+                    443
+                </p>
+            </div>
+        </a>
+        <a href="box.html">
+            <div class="col-lg-3 col-md-6">
+                <p>
+                    box
+                </p>
+            </div>
+        </a>
+        <a href="floating.html">
+            <div class="col-lg-3 col-md-6">
+                <p>
+                    floating
+                </p>
+            </div>
+        </a>
+        <a href="pseudo_class.html">
+            <div class="col-lg-3 col-md-6">
+                <p>
+                    pseudo_class
+                </p>
+            </div>
+        </a>
+        <a href="responsive-before.html">
+            <div class="col-lg-3 col-md-6">
+                <p>
+                    responsive-before
+                </p>
+            </div>
+        </a>
+        <a href="text.html">
+        <div class="col-lg-3 col-md-6">
+            <p>
+                text
+            </p>
+        </div>
+        </a>
+        <a href="two-col.thml">
+            <div class="col-lg-3 col-md-6">
+                <p>
+                    col
+                </p>
+            </div>
+        </a>
+
+    </div>
+
+
+    <ul style="clear:both">
         <li>
             <a href="#sec1">#section1</a>
         </li>
