@@ -1,0 +1,13 @@
+p:link,
+p:visited {
+    background-color: blue;
+    color: #FFFFFF;
+}
+
+p:hover {
+    color: #9F9F9F;
+}
+
+p:active {
+    color: maroon;
+}

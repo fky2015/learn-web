@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>PSEUDO</title>
+    <style>
+        header li {
+            list-style: none;
+        }
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+            background-color: green;
+            border: 1px solid blue;
+            color: black;
+            display: block;
+            width: 200px;
+            text-align: center;
+            margin-bottom: 1px;
+        }
+
+        a:hover,
+        a:active {
+            background-color: red;
+            color: white;
+        }
+        #test> div,#test>  span {
+  background-color: blue;
+}
+        header li:nth-child(3) {
+            font-size: 24px;
+        }
+
+        section#longlist div:nth-child(odd) {
+            background-color: gray;
+        }
+
+        section div:nth-child(4):hover {
+            background-color: green;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Pseudo Class Selectors</h1>
+    <header>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="http:/google.com" target="_blank">AngularJS</a></li>
+            <li><a href="http://facebook.com" target="_blank">Facebook</a></li>
+        </ul>
+    </header>
+    <section id="longlist">
+        <div>div 1</div>
+        <div>div 2</div>
+        <div>div 3</div>
+        <div>div 4</div>
+        <div>div 5</div>
+        <div>div 6</div>
+        <div>div 7</div>
+        <div style="text-align: center;">div 8</div>
+        <div>div 9</div>
+        <div>div 10</div>
+        <div>div 11</div>
+        <div>div 12</div>
+    </section>
+    <section id='test'>
+        <div>Hello</div>
+        <span>World!</span>
+    </section>
+</body>
+
+</html>
